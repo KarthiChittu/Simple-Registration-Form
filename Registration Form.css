@@ -1,0 +1,36 @@
+.container
+{
+ width: 100%;
+ height: 100vh;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+}
+
+body
+{
+    background-color: lightgrey;
+}
+
+.all
+{
+    border: 2px;
+    width: 30%;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+}
+
+.all:hover
+{
+    background-color:white;
+    border-color:brown;
+    color: maroon;
+}
+
+td:hover
+{
+    color:crimson;
+    cursor: pointer;
+}
+
